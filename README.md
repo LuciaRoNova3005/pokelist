@@ -1,13 +1,26 @@
-# Getting Started with Create React App
+# Exercice
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The exercise consists of developing a simple web page with React.
+To carry out the exercise, we suggest you follow these steps:
+1. Establish on paper the structure of components for the web.
+2. Create a new React application.
+3. Paint 1 card, collecting the information from the props.
+4. Paint all the cards.
+5. In addition to creating the App component, we must create two components, PokeList and Pokemon,
+respectively for the list and for the card of each Pokemon.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
 ### `yarn start`
-
+To carry out the exercise, we suggest you follow these steps:
+1. Establish on paper the structure of components for the web.
+2. Create a new React application.
+3. Paint 1 card, collecting the information from the props.
+4. Paint all the cards.
+5. In addition to creating the App component, we must create two components, PokeList and Pokemon,
+respectively for the list and for the card of each Pokemon.
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
