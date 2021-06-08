@@ -1,19 +1,15 @@
+.tittle {
+  margin: auto;
+  text-align: center;
+  text-transform: capitalize;
+}
 .container {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
-.blue {
-  width: 200px;
-  height: 200px;
-  background-color: blue;
-}
-
-.red {
-  width: 200px;
-  height: 200px;
-  background-color: red;
+.card {
+  background-color: lightgrey;
+  box-sizing: border-box;
+  margin: 10px;
 }

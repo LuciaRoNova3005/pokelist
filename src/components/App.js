@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <header>
-        <h1>Mi lista de pokemon</h1>
+        <h1 className="tittle">Mi lista de pokemon</h1>
       </header>
       <main>
         <Pokelist dataList={pokemonData} />

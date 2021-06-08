@@ -3,17 +3,15 @@ import Pokemon from "./Pokemon";
 
 const Pokelist = (props) => {
   return (
-    <ul>
+    <div className="container">
       {props.dataList.map((element) => (
-        <li>
-          <Pokemon
-            img={element.url}
-            name={element.name}
-            types={element.types}
-          ></Pokemon>
-        </li>
+        <Pokemon
+          img={element.url}
+          name={element.name}
+          types={element.types}
+        ></Pokemon>
       ))}
-    </ul>
+    </div>
   );
 };
 
