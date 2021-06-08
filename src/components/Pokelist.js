@@ -1,10 +1,10 @@
-import list from "../data/list.json";
+import React from "react";
 import Pokemon from "./Pokemon";
 
 const Pokelist = (props) => {
   return (
     <ul>
-      {list.map((element) => (
+      {props.dataList.map((element) => (
         <li>
           <Pokemon
             img={element.url}
