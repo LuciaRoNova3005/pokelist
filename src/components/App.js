@@ -1,8 +1,8 @@
 import "../stylesheets/App.css";
-import Clublist from "./Clublist";
+import Pokelist from "./Pokelist";
 
-function App() {
-  return <Clublist />;
+function App(list) {
+  return <Pokelist />;
 }
 
 export default App;
