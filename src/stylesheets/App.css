@@ -2,9 +2,13 @@
   margin: auto;
   text-align: center;
   text-transform: capitalize;
+  font-size: 20px;
+  font-weight: bold;
 }
 .tittle1 {
   margin: 20px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .container {
@@ -34,6 +38,5 @@
   padding: 5px;
   border-radius: 5px;
   color: white;
-  margin-left: 20px;
-  margin-right: 10px;
+  margin: 10px 10px 10px 20px;
 }

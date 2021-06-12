@@ -1,16 +1,18 @@
 function Pokemon(props) {
   return (
-    <div className="card">
-      <img className="image" src={props.img} alt={props.name}></img>
+    <ul className="card">
+      <li>
+        <img className="image" src={props.img} alt={props.name}></img>
+      </li>
 
-      <h2 className="tittle">{props.name}</h2>
+      <li className="tittle">{props.name}</li>
 
-      <div className="types">
+      <ul className="types">
         {props.types.map((element) => (
-          <p className="text">{element}</p>
+          <li className="text">{element}</li>
         ))}
-      </div>
-    </div>
+      </ul>
+    </ul>
   );
 }
 
