@@ -6,10 +6,12 @@ const Pokelist = (props) => {
     <div className="container">
       {props.dataList.map((element) => (
         <Pokemon
+          handleFav={props.handleFav}
           key={element.id}
           img={element.url}
           name={element.name}
           types={element.types}
+          id={element.id}
         ></Pokemon>
       ))}
     </div>

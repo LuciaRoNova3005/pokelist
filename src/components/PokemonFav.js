@@ -1,6 +1,6 @@
-function Pokemon(props) {
+function PokemonFav(props) {
   return (
-    <ul className="card" id={props.id} onClick={props.handleFav}>
+    <ul className="card" key={props.key} id={props.id}>
       <li>
         <img className="image" src={props.img} alt={props.name}></img>
       </li>
@@ -9,8 +9,8 @@ function Pokemon(props) {
 
       <ul className="types">
         {props.types.map((element, index) => (
-          <li className="text" key={index}>
-            {element}
+          <li className="text">
+            {element} key={index}
           </li>
         ))}
       </ul>
@@ -18,4 +18,4 @@ function Pokemon(props) {
   );
 }
 
-export default Pokemon;
+export default PokemonFav;
