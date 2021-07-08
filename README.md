@@ -9,6 +9,9 @@ To carry out the exercise, we suggest you follow these steps:
 5. In addition to creating the App component, we must create two components, PokeList and Pokemon,
 respectively for the list and for the card of each Pokemon.
 
+![image](https://user-images.githubusercontent.com/81588630/124921843-2412e180-dff9-11eb-8fe1-e8deb648545b.png)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
