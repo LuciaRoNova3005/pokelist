@@ -23,7 +23,15 @@
   border-color: black;
   margin: 10px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
+.fa-star {
+  margin: 30px;
+  text-align: right;
+  font-size: 30px;
+}
+
 .image {
   width: 150px;
   position: center;

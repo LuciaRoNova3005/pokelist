@@ -1,6 +1,7 @@
 function Pokemon(props) {
   return (
     <ul className="card" id={props.id} onClick={props.handleFav}>
+      <i className="icon far fa-star"></i>
       <li>
         <img className="image" src={props.img} alt={props.name}></img>
       </li>
