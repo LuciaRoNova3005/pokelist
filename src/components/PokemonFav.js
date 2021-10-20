@@ -9,8 +9,8 @@ function PokemonFav(props) {
 
       <ul className="types">
         {props.types.map((element, index) => (
-          <li className="text">
-            {element} key={index}
+          <li className="text" key={index}>
+            {element}
           </li>
         ))}
       </ul>
