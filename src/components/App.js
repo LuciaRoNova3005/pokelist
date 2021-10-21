@@ -1,4 +1,4 @@
-import "../stylesheets/App.css";
+import "../stylesheets/App.scss";
 import list from "../data/list.json";
 import Pokelist from "./Pokelist";
 import React, { useState } from "react";

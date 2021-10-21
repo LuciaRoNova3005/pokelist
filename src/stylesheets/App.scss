@@ -1,0 +1,16 @@
+@import "../stylesheets/Core/reset.scss";
+@import "../stylesheets/Core/mixin.scss";
+@import "../stylesheets/Components/pokelist.scss";
+
+.tittle {
+  margin: auto;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: bold;
+}
+.tittle1 {
+  margin: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
