@@ -3,15 +3,18 @@ import PokemonFav from "./PokemonFav";
 const Pokelistfav = (props) => {
   return (
     <div>
-      {props.dataFav.map((element) => (
-        <PokemonFav
-          key={element.id}
-          name={element.name}
-          img={element.url}
-          types={element.types}
-          id={element.id}
-        ></PokemonFav>
-      ))}
+      <h2 className="tittle tittle2">Mis pokemon favoritos</h2>
+      <div className="container">
+        {props.dataFav.map((element) => (
+          <PokemonFav
+            key={element.id}
+            name={element.name}
+            img={element.url}
+            types={element.types}
+            id={element.id}
+          ></PokemonFav>
+        ))}
+      </div>
     </div>
   );
 };
