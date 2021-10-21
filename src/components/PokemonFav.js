@@ -2,6 +2,7 @@ function PokemonFav(props) {
   return (
     <div className="cardfav">
       <ul className="card" key={props.key} id={props.id}>
+        <i className="fas fa-star"></i>
         <li>
           <img className="image" src={props.img} alt={props.name}></img>
         </li>
