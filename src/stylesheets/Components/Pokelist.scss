@@ -7,7 +7,6 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
-
   @include desktop() {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -22,6 +21,10 @@
   text-align: center;
   display: flex;
   flex-direction: column;
+  .image {
+    width: 150px;
+    position: center;
+  }
 }
 .fa-star {
   margin: 30px;
@@ -29,10 +32,6 @@
   font-size: 30px;
 }
 
-.image {
-  width: 150px;
-  position: center;
-}
 .types {
   display: flex;
   flex-direction: row;
