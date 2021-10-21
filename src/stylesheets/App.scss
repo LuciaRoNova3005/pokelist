@@ -1,13 +1,13 @@
 @import "../stylesheets/Core/reset.scss";
 @import "../stylesheets/Core/mixin.scss";
 @import "../stylesheets/Components/pokelist.scss";
-
+@import "../stylesheets/Components/Pokefav.scss";
 .tittle {
-  margin: auto;
   text-align: center;
   text-transform: capitalize;
   font-size: 20px;
   font-weight: bold;
+
   @include tablet() {
     font-size: 30px;
   }
@@ -15,14 +15,30 @@
     font-size: 40px;
   }
 }
+
 .tittle1 {
   margin: 20px;
   font-size: 40px;
   font-weight: bold;
+  color: red;
   @include tablet() {
     font-size: 50px;
   }
   @include desktop() {
     font-size: 60px;
+  }
+}
+
+.tittle2 {
+  margin: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+
+  @include tablet() {
+    font-size: 40px;
+  }
+  @include desktop() {
+    font-size: 50px;
   }
 }
