@@ -22,6 +22,9 @@
   display: flex;
   flex-direction: column;
 }
+.card:hover {
+  background-color: rgb(223, 223, 89);
+}
 .image {
   width: 150px;
 }
