@@ -25,7 +25,7 @@ function App(props) {
     setFavs(newFavoriters);
     console.log(pokemonFav);
   };
-
+  console.log(pokemonFav);
   return (
     <>
       <header>
@@ -33,7 +33,7 @@ function App(props) {
       </header>
       <main>
         <Pokelist dataList={list} handleFav={handleFav} />
-        <Pokelistfav dataFav={pokemonFav}></Pokelistfav>
+        <Pokelistfav dataFav={pokemonFav} handleFav={handleFav}></Pokelistfav>
       </main>
     </>
   );

@@ -7,6 +7,7 @@ const Pokelistfav = (props) => {
       <div className="container">
         {props.dataFav.map((element) => (
           <PokemonFav
+            handleFav={props.handleFav}
             key={element.id}
             name={element.name}
             img={element.url}
