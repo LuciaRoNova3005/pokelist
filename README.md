@@ -9,9 +9,12 @@ To carry out the exercise, we suggest you follow these steps:
 5. In addition to creating the App component, we must create two components, PokeList and Pokemon,
 respectively for the list and for the card of each Pokemon.
 
-![image](https://user-images.githubusercontent.com/81588630/124921843-2412e180-dff9-11eb-8fe1-e8deb648545b.png)
+![image](https://user-images.githubusercontent.com/81588630/139128600-eccbbd7b-5d51-47f1-a295-bfabcaa3e46b.png)
 
+## EXTRA Add Pokemon Favorite
+In addition, the user must be able to add by clicking on each card, a pokemon to their favorites list
 
+![image](https://user-images.githubusercontent.com/81588630/139128683-5fd3c5f5-741a-4ad7-9a4d-461b40feb9ec.png)
 ## Available Scripts
 
 In the project directory, you can run:
