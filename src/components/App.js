@@ -1,12 +1,17 @@
 import "../stylesheets/App.scss";
 import list from "../data/list.json";
+import ls from "../Services/local-storage";
 import Pokelist from "./Pokelist";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Pokelistfav from "./Pokelistfav";
 
 function App(props) {
   const [data] = useState(list);
-  const [pokemonFav, setFavs] = useState([]);
+  const [pokemonFav, setFavs] = useState(ls.get("pokemonFavs", []));
+
+  useEffect(() => {
+    ls.set("pokemonFavs", pokemonFav);
+  }, [pokemonFav]);
 
   const handleFav = (ev) => {
     const favPokeId = data.find(
