@@ -17,7 +17,7 @@ function App(props) {
     const favPokeId = data.find(
       (fav) => fav.id === parseInt(ev.currentTarget.id)
     );
-
+    console.log(favPokeId);
     if (!pokemonFav.includes(favPokeId)) {
       setFavs([...pokemonFav, favPokeId]);
       console.log(pokemonFav);
